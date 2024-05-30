@@ -1,0 +1,39 @@
+{
+  "name": "front-dom-javascript-web-exercicios",
+  "version": "1.0.0",
+  "description": "Esse é um exercício bem completo, por isso teremos apenas ele para praticar os  conteúdos dessa aula, para facilitar deixaremos abaixo os assuntos que você precisa se atentar para resolver esse exercício, lembrando que você pode achar outras alternativas para resolver.",
+  "main": "js/main.js",
+  "scripts": {
+    "style": "tailwindcss build -i public/assets/styles/tailwind.css -o public/assets/styles/index.css",
+    "start": "http-server ./public -c-1 -p 8081",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/wandersonareis/front-dom-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/wandersonareis/front-dom-javascript/issues"
+  },
+  "homepage": "https://gitlab.com/wandersonareis/front-dom-javascript#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "cssnano": "^5.1.14",
+    "postcss": "^8.4.19",
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "postcss-import": "^14.1.0",
+    "postcss-js": "^4.0.0",
+    "postcss-load-config": "^3.1.4",
+    "postcss-nested": "^6.0.0",
+    "postcss-selector-parser": "^6.0.10",
+    "postcss-value-parser": "^4.2.0"
+  }
+}
